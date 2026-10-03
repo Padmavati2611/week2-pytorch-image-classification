@@ -1,0 +1,46 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / tooling
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets: keep the folder structure, ignore the image files
+dataset/*
+!dataset/README.md
+!dataset/**/
+!dataset/**/.gitkeep
+
+# Trained models (large binary files)
+models/*.pth
+models/*.pt
+models/*.pkl
+
+# Generated figures and logs
+outputs/*.png
+outputs/*.jpg
+outputs/*.json
+
+# Logs
+*.log

@@ -1,0 +1,9 @@
+# Week 2 - PyTorch Image Classification
+# Install with:  pip install -r requirements.txt
+
+torch>=2.0
+torchvision>=0.15
+numpy>=1.23
+matplotlib>=3.6
+pillow>=9.0
+scikit-learn>=1.1
